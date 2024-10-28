@@ -12,8 +12,8 @@ NextGenVotes is a website created in HTML and Tailwind CSS to provide informatio
 ### 1. Clone the project
 1. Clone the repository into your system
 ```bash
-$ git clone https://github.com/RohanP1506/ElectionWebsite.git
-$ cd ElectionWebsite
+$ git clone https://github.com/RohanP1506/NextGenVoted.git
+$ cd NextGenVotes
 ```
 
 ### 2. Open the `index.html` file in your browser
