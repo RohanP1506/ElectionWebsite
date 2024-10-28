@@ -1,5 +1,5 @@
-# Election Website
-Election Website is a website created in HTML and Tailwind CSS to provide information about the 2024 Presidential Election.
+# NextGenVotes
+NextGenVotes is a website created in HTML and Tailwind CSS to provide information about the 2024 Presidential Election.
 
 ## Tech Stack
 ### Front-end:
