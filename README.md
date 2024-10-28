@@ -12,7 +12,7 @@ NextGenVotes is a website created in HTML and Tailwind CSS to provide informatio
 ### 1. Clone the project
 1. Clone the repository into your system
 ```bash
-$ git clone https://github.com/RohanP1506/NextGenVoted.git
+$ git clone https://github.com/RohanP1506/NextGenVotes.git
 $ cd NextGenVotes
 ```
 
