@@ -2,42 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group Election Website</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Presidential Electrion 2024</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <div>
-        <center>
-            <h1>2024 Election Website</h1>
-            <h2>by Jeydin, Justin, and Rohan</h2>
-        </center>
-    </div>
-    <ul style="
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    ">
-        <li><a href="aboutKamala.html">Kamala Harris</a></li>
-        <li><a href="aboutTrump.html">Donald Trump</a></li>
-        <li><a href="votingInfo.html">Where to Vote</a></li>
-    </ul>
-    <div>
-        <a href="aboutKamala.html">
-            <img width="200px" src="/images/kamala.webp" </img>
-        </a>
-        <a href="aboutTrump.html">
-            <img width="350px" src="/images/trump.jpg" </img>
-        </a>
-    </div>
-    <script>
+	<nav class="bg-gray-800 p-4">
+		<div class="container mx-auto flex justify-between items-center">
+			<a href="/">
+				<div class="text-white text-2xl font-bold">Presidential Election 2024</div>
+			</a>
+			<ul class="flex space-x-4">
+				<li><a href="/aboutTrump.html" class="text-white hover:text-gray-400">Donald Trump</a></li>
+				<li><a href="/aboutKamala.html" class="text-white hover:text-gray-400">Kamala Harris</a></li>
+				<li><a href="/votingInfo.html" class="text-white hover:text-gray-400">Where to Vote</a></li>
+			</ul>
+		</div>
+	</nav>
 
-    </script>
-
-
-
+	<div class="m-2 p-2 text-center">
+		<div class="mx-auto">
+			<h1 class="text-5xl">Presidential Electrion 2024</h1>
+			<h2 class="text-2xl">By: Jeydin, Justin, and Rohan</h2>
+		</div>
+		<div class="flex flex-row justify-between">
+			<a href="aboutKamala.html">
+				<img class="h-52" src="/assets/kamala.webp" />
+			</a>
+			<a href="aboutTrump.html">
+				<img class="h-52" src="/assets/trump.jpg" />
+			</a>
+		</div>
+	</div>
 </body>
 
 </html>
