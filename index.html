@@ -2,75 +2,79 @@
 <html lang="en">
 
 <head>
-    <title>Presidential Election 2024</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+	<title>NextGenVotes</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="flex flex-col min-h-screen">
-    <nav class="bg-gray-800 p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="https://rohanp1506.github.io/NextGenVotes/">
-                <div class="text-white text-2xl font-bold">Presidential Election 2024</div>
-            </a>
-            <ul class="flex space-x-4">
-                <li><a href="https://rohanp1506.github.io/NextGenVotes/candidates/trump.html" class="text-white hover:text-gray-400">Donald Trump</a></li>
-                <li><a href="https://rohanp1506.github.io/NextGenVotes/candidates/kamala.html" class="text-white hover:text-gray-400">Kamala Harris</a></li>
-                <li><a href="https://rohanp1506.github.io/NextGenVotes/voting.html" class="text-white hover:text-gray-400">Where to Vote</a></li>
-            </ul>
-        </div>
-    </nav>
+	<nav class="bg-gray-800 p-4">
+		<div class="container mx-auto flex justify-between items-center">
+			<a href="https://rohanp1506.github.io/NextGenVotes/">
+				<div class="text-white text-2xl font-bold">NextGenVotes</div>
+			</a>
+			<ul class="flex space-x-4">
+				<li><a href="https://rohanp1506.github.io/NextGenVotes/candidates/trump.html"
+						class="text-white hover:text-gray-400">Donald Trump</a></li>
+				<li><a href="https://rohanp1506.github.io/NextGenVotes/candidates/kamala.html"
+						class="text-white hover:text-gray-400">Kamala Harris</a></li>
+				<li><a href="https://rohanp1506.github.io/NextGenVotes/voting.html" class="text-white hover:text-gray-400">Where
+						to Vote</a></li>
+			</ul>
+		</div>
+	</nav>
 
-    <main class="m-2 p-2 text-center flex-grow">
-        <div class="mx-auto">
-            <h2 class="text-black text-2xl font-bold">By: Jeydin, Justin, and Rohan</h2>
-        </div>
-        <div class="flex flex-row justify-between space-x-4">
-            <div class="flex-1 text-center">
-                <a href="https://rohanp1506.github.io/NextGenVotes/candidates/kamala.html">
-                    <img class="h-52 mx-auto" src="https://rohanp1506.github.io/NextGenVotes/assets/kamala.webp" alt="Kamala Harris" />
-                </a>
-                <h4 class="font-semibold mt-4">Kamala Harris</h4>
-                <p class="mt-2 mx-auto max-w-xs">
-                    Kamala Harris (born October 20, 1964) is an American politician
-                    and attorney who has been the 49th and current vice president
-                    of the United States since 2021, serving under President Joe
-                    Biden. Harris is the Democratic Party's nominee for
-                    president in the 2024 election. She is the first woman,
-                    the first African American, and the first Asian American
-                    to be vice president, due to her Afro-Jamaican and
-                    Indian American descent. She is the highest-ranking
-                    female official in U.S. history. From 2017 to 2021,
-                    she represented California in the United States Senate.
-                    Before that, she was the attorney general of California.
-                </p>
-            </div>
-            <div class="flex-1 text-center">
-                <a href="https://rohanp1506.github.io/NextGenVotes/candidates/trump.html">
-                    <img class="h-52 mx-auto" src="https://rohanp1506.github.io/NextGenVotes/assets/trump.jpg" alt="Donald Trump" />
-                </a>
-                <h4 class="font-semibold mt-4">Donald Trump</h4>
-                <p class="mt-2 mx-auto max-w-xs">
-                    Donald Trump (born June 14, 1946) is an American businessman,
-                    television personality, and politician who served as the
-                    45th president of the United States from 2017 to 2021.
-                    He is the Republican Party's nominee for president in the
-                    2024 election. Trump previously gained fame as a real estate
-                    developer and the host of the reality TV show "The Apprentice."
-                    As president, he focused on issues such as immigration reform,
-                    tax cuts, and deregulation, while also facing criticism for
-                    his handling of various domestic and foreign policy issues.
-                </p>
-            </div>
-        </div>
-    </main>
+	<!-- Full-screen landing page -->
+	<section class="flex items-center justify-center bg-cover bg-center h-screen">
+		<div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
+			<h1 class="text-white text-5xl font-bold mb-4">Presidential Election 2024</h1>
+			<p class="text-white text-xl mb-6">Your vote, your voice. Make it count!</p>
+			<a href="#candidates"
+				class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600">Meet the
+				Candidates</a>
+		</div>
+	</section>
 
-    <footer class="bg-gray-800 p-4">
-        <div class="container mx-auto text-white text-center">
-            <p>&copy; 2024 NextGenVotes</p>
-        </div>
-    </footer>
+	<!-- Candidates section -->
+	<section id="candidates" class="bg-gray-100 py-10">
+		<div class="container mx-auto text-center">
+			<h2 class="text-3xl font-bold mb-8">Meet the Candidates</h2>
+			<div class="flex flex-row justify-between space-x-4 shadow-2xl">
+				<div class="flex-1 text-center bg-white p-6 rounded-lg shadow-lg">
+					<a href="https://rohanp1506.github.io/NextGenVotes/candidates/kamala.html">
+						<img class="h-52 mx-auto" src="https://rohanp1506.github.io/NextGenVotes/assets/kamala.webp"
+							alt="Kamala Harris" />
+					</a>
+					<h4 class="font-semibold mt-4">Kamala Harris</h4>
+					<p class="mt-2 mx-auto max-w-lg">
+						Kamala Harris (born October 20, 1964) is an American politician
+						and attorney who has been the 49th and current vice president
+						of the United States since 2021, serving under President Joe
+						Biden.
+					</p>
+				</div>
+				<div class="flex-1 text-center bg-white p-6 rounded-lg shadow-lg">
+					<a href="https://rohanp1506.github.io/NextGenVotes/candidates/trump.html">
+						<img class="h-52 mx-auto" src="https://rohanp1506.github.io/NextGenVotes/assets/trump.jpg"
+							alt="Donald Trump" />
+					</a>
+					<h4 class="font-semibold mt-4">Donald Trump</h4>
+					<p class="mt-2 mx-auto max-w-lg">
+						Donald Trump (born June 14, 1946) is an American businessman,
+						television personality, and politician who served as the
+						45th president of the United States from 2017 to 2021.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-gray-800 p-4 mt-auto">
+		<div class="container mx-auto text-white text-center">
+			<p>&copy; 2024 NextGenVotes</p>
+		</div>
+	</footer>
 </body>
 
 </html>
